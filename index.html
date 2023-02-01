@@ -13,6 +13,9 @@
     <!-- Bootstrap Icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css">
 
@@ -55,7 +58,7 @@
     <section class=" jumbotron text-center">
         <img src="img/nabilmu.jpg" alt="Nabil Musannif" width="200px" height="200px" class="rounded-circle">
         <h1 class="display-4">Nabil Musannif S</h1>
-        <p class="lead">Student | Web Developer</p>
+        <p class="lead"></p>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#ffffff" fill-opacity="1"
                 d="M0,256L34.3,234.7C68.6,213,137,171,206,170.7C274.3,171,343,213,411,192C480,171,549,85,617,90.7C685.7,96,754,192,823,213.3C891.4,235,960,181,1029,154.7C1097.1,128,1166,128,1234,122.7C1302.9,117,1371,107,1406,101.3L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
@@ -74,12 +77,12 @@
                 </div>
             </div>
             <div class="row justify-content-center fs-5 text-center">
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-right">
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus hic
                         esse nulla fugit at,
                         distinctio repellendus sunt quidem eaque aliquid.</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-left" data-aos-delay="200">
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, id
                         esse. Odit deleniti fuga
                         iure. Alias perferendis dicta saepe voluptas minus voluptatem deleniti
@@ -106,7 +109,7 @@
             </div>
             <div class="row justify-content-evenly">
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500">
                         <img src="img/projects/1.jpg" class="card-img-top" alt="Project 1">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card
@@ -116,7 +119,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
                         <img src="img/projects/2.jpg" class="card-img-top" alt="Project 2">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card
@@ -127,7 +130,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
                         <img src="img/projects/3.jpg" class="card-img-top" alt="Project 3">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card
@@ -138,7 +141,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
                         <img src="img/projects/4.jpg" class="card-img-top" alt="Project 4">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card
@@ -149,7 +152,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
                         <img src="img/projects/5.jpg" class="card-img-top" alt="Project 5">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card
@@ -169,6 +172,61 @@
         </svg>
     </section>
     <!-- akhir Projects -->
+
+
+    <!-- Gallery -->
+    <section id="gallery">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>Gallery</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/gallery/1.png" alt="Gambar 1" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/gallery/2.png" alt="Gambar 2" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/gallery/3.png" alt="Gambar 3" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/gallery/4.png" alt="Gambar 4" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/gallery/5.png" alt="Gambar 5" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/gallery/6.png" alt="Gambar 6" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/gallery/7.png" alt="Gambar 7" class="img-fluid gallery-img">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="img/gallery/8.png" alt="Gambar 8" class="img-fluid gallery-img">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir Gallery -->
 
 
     <!-- Contact -->
@@ -230,6 +288,53 @@
 
 
 
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        const galleryImage = document.querySelectorAll('.gallery-img');
+
+        galleryImage.forEach((img, i) => {
+            img.dataset.aos = 'fade-down';
+            img.dataset.aosDelay = i * 100;
+            img.dataset.aosDuration = 1000;
+        })
+
+        AOS.init({
+            once: true,
+            duration: 2000,
+        });
+    </script>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/TextPlugin.min.js"></script>
+    <script>
+        gsap.registerPlugin(TextPlugin);
+        gsap.to('.lead', {
+            duration: 2,
+            delay: 1,
+            text: 'Student | Web Developer'
+        });
+        gsap.from('.jumbotron img', {
+            duration: 1,
+            y: -100,
+            opacity: 0,
+            ease: 'slow'
+        });
+        gsap.from('.navbar', {
+            duration: .7,
+            y: '100%',
+            opacity: 0,
+            ease: 'bounce'
+        });
+        gsap.from('.display-4', {
+            duration: 1,
+            x: 50,
+            opacity: 0,
+            delay: .5,
+            ease: 'back'
+        })
+    </script>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
